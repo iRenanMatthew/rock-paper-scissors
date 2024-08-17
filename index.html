@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <script src="src/app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>Rock Paper Scissors</h1>
+      <h2>First to get score of 5 will win</h2>
+      <h3>User Move: <span class="userMove"></span></h3>
+      <h3>Computer Move: <span class="computerMove"></span></h3>
+      <h3>Result: <span class="resultDesc"></span></h3>
+      <h3>User Result: <span class="userResult">0</span></h3>
+      <h3>Computer Result: <span class="computerResult">0</span></h3>
+      <button onclick="playGame('rock')">Rock</button>
+      <button onclick="playGame('paper')">Paper</button>
+      <button onclick="playGame('scissors')">Scissors</button>
+      <button onclick="resetScore();">Reset</button>
+      <h3 class="resultDescription"></h3>
+    </main>
+  </body>
+</html>
